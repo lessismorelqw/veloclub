@@ -1,0 +1,233 @@
+html,body {
+	height:85%;
+	margin: 0 auto;
+	padding: 0;
+	font-family: Roboto;
+}
+/*header.php*/
+#banniere {
+	height:25%;
+
+}
+
+#logo {
+	display:inline-block;
+	margin-left:1rem;
+	margin-top: 1.5rem;
+	width:150px;
+    height:110px;
+	background-image: url(../ressources/icon.jpg);
+	background-size: cover;
+}
+#banniere a{
+	float:right;
+	margin-right:6rem;
+	margin-top: 5rem;
+	font-size:1.5rem;
+	color:dimgrey;
+	text-decoration:none;
+}
+#banniere a:hover{
+	color:#FF7043;
+	font-size:1.8rem;
+}
+
+
+/*accueil.php*/
+#corps {
+	border :1px solid #FF9800 ;
+	background:url("../ressources/background.jpg");
+	background-size: cover;
+    opacity: 0.6;
+	padding:3rem;
+	margin:0px;
+	height:100%;
+	text-align: center;
+
+
+}
+#list_container{
+ padding: auto;
+	height: 100%;
+}
+#list_container input{
+	display: inline-block;
+	border-radius: 0.25px 0.25rem 0.25rem 0.25rem;
+	height:3rem;
+	font-size: 1.8rem;
+	text-align: center;
+	border: 0.05rem solid #FF7043;
+
+}
+#date{
+	background-color: rgba(255, 255, 255, 1);
+	color:darkgrey;
+}
+.button_search{
+	color:white;
+	background-color: #FF7043;
+}
+
+#activity_list{
+	margin:2rem auto;
+	background-color: white;
+	width:60%;
+}
+#activity_list tr th{
+	background-color:orange;
+	opacity: 0.5;
+}
+#table_activity {
+	width:80%;
+	border-collapse: collapse;
+	margin:2rem auto;
+
+	background-color: white;
+	line-height: normal;
+}
+#table_activity th{
+	background-color: #FF7043;
+	height:4rem;
+}
+#table_activity tr:hover {background-color: darkorange;}
+#table_activity td{
+	height:3rem;
+}
+
+
+/*footer.php*/
+#pied {
+	height:15%;
+	background-color:#FF7043;
+	padding:20px;
+	margin:0px;
+
+}
+#pied h2{
+	color:white;
+	font-size:1rem;
+
+}
+
+#titre {
+	border :1px solid black;
+	padding:20px;
+	margin:10px;
+}
+#corps_user{
+	border :1px solid #FF9800 ;
+	background:#FF7043;
+	opacity: 0.6;
+	padding:3rem;
+	margin:0px;
+	height:80%;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*signin.php et login.php*/
+.form input{
+	width:40%;
+	height:2rem;
+	margin-top: 1.2rem;
+	background-color: white;
+	border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.form .submit_button{
+	background-color: #FF7043;
+    margin:2rem;
+}
+.form .submit_button:hover{
+	background-color: white;
+	margin:2rem;
+}
+
+
+
+
+
+/*repair.php*/
+#repairTitle{
+	text-align: center;
+	font-family: "Calibri Light", cursive, sans-serif;
+	font-size: 2rem;
+}
+#repairTitle span{
+	color:#FF7043;
+	font-weight: bold;
+}
+#repair_container{
+	font-family: "Calibri Light", cursive, sans-serif;
+	height:100%;
+	width: 50%;
+	margin:auto;
+	text-align: center;
+
+}
+.reparationForm label{
+	display:inline-block;
+	font-size: 2rem;
+
+	margin: 2rem 2rem 2rem 1.5rem;
+
+}
+.reparationForm input{
+	display:inline-block;
+
+
+}
+.reparationForm input:hover{
+	background-color: #FF9800;
+}
+
+
+#external-events {
+	position: fixed;
+	z-index: 2;
+	top: 15rem;
+	left: 1rem;
+	width: 150px;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+	background: cornflowerblue;
+	color:white;
+	font-size: 1.5rem;
+	text-align: center;
+
+}
+
+#external-events .fc-event {
+	margin: 1em 0;
+	cursor: move;
+	background-color: lightblue;
+
+}
+#calendar-container {
+	position: relative;
+	margin-left: 200px;
+	overflow: auto;
+	height:600px;
+}
+#calendar{
+	margin: 0 4rem;
+	height:100%;
+}
+
+
+/*stage.php*/
+#stage-container{
+	padding:0 10rem 2rem 10rem;
+	height:600px;
+	overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
