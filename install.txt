@@ -1,0 +1,5 @@
+Install: Version:1.0———-li qingwen——2019-08-12
+
+Contact information: liqingwenhhh@gami.com
+ 1. veloclub.zip——localhost/veloclub
+2. veloclub.sql
