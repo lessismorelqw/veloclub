@@ -1,5 +1,5 @@
 
-//load plugins de fullcalendar sur la page repair.php
+//load plugins de fullcalendar sur la page stage.php
 
 
 
