@@ -1,5 +1,17 @@
 Install: Version:1.0———-li qingwen——2019-08-12
 
-Contact information: liqingwenhhh@gami.com
- 1. veloclub.zip——localhost/veloclub
-2. veloclub.sql
+Contact information: liqingwenhhh@gamil.com
+
+
+1.notice for visit this website
+
+you can download the files of "veloclub"
+then put it in the respository of your "localhost",
+type "localhost/veloclub"in the browser,
+finally, you will see the website
+
+2. steps for creating the database,  using "veloclub.sql" file:
+database_user:"root"
+database_password:""
+database_name:"veloclub"
+
