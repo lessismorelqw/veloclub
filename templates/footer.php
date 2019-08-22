@@ -20,7 +20,11 @@ if (valider("connecte","SESSION"))
 	echo "<a href=\"controleur.php?action=Logout\">Se Déconnecter</a>";
 }
 ?>
-    <h2>Contact:    liqingwenhhh@gmail.com<a href=""></a></h2>
+
+    <p><a href="">Copyright ©2019 LI Qingwen</a></p>
+    <p><a href="">Velo club</a> | <a href="">Bolg
+        </a> | <a href="">Work</a> | <a href="">Terms of Use</a> | <a href="">Contact Me</a></p>
+
 </div>
 
 </body>
