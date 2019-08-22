@@ -18,7 +18,7 @@ if (basename($_SERVER["PHP_SELF"]) != "index.php")
 <form action="controleur.php" method="GET">
 Login : <input type="text" name="login" /><br />
 Mot de passe : <input type="password" name="passe" /><br />
-<input ="submit_button" type="submit" name="action" value="Connexion" />
+<input class="submit_button" type="submit" name="action" value="Connexion" />
 </form>
 
 </div>
